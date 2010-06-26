@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebFormEventModelExperiments.Web", "Web\WebFormEventModelExperiments.Web.csproj", "{F814F281-2DE7-48B2-B0BC-C32EBD1336E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebFormEventModelExperiments.Logic", "Logic\Logic\WebFormEventModelExperiments.Logic.csproj", "{B552ED7A-AC17-4B64-9E2C-6C523B733D7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebFormEventModelExperiments.Tests", "WebFormEventModelExperiments.Tests\WebFormEventModelExperiments.Tests.csproj", "{79511891-0210-4AFE-A5FE-F00B1D49B16A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EEFC389E-ED3C-4DA1-B6CE-CAFF51F55FAC}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+		WebFormEventModelExperiments.vsmdi = WebFormEventModelExperiments.vsmdi
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = WebFormEventModelExperiments.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F814F281-2DE7-48B2-B0BC-C32EBD1336E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F814F281-2DE7-48B2-B0BC-C32EBD1336E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F814F281-2DE7-48B2-B0BC-C32EBD1336E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F814F281-2DE7-48B2-B0BC-C32EBD1336E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B552ED7A-AC17-4B64-9E2C-6C523B733D7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B552ED7A-AC17-4B64-9E2C-6C523B733D7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B552ED7A-AC17-4B64-9E2C-6C523B733D7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B552ED7A-AC17-4B64-9E2C-6C523B733D7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79511891-0210-4AFE-A5FE-F00B1D49B16A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79511891-0210-4AFE-A5FE-F00B1D49B16A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79511891-0210-4AFE-A5FE-F00B1D49B16A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79511891-0210-4AFE-A5FE-F00B1D49B16A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

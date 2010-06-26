@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="fbfc6c9c-acbb-4771-add0-806e92864354" name="nickjosevski@NICKJOSEVSKI-PC 2010-06-23 14:51:30" runUser="ACMELBDC\nickjosevski" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="ad3a627b-704a-4180-b991-9a330ddb68f9">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="nickjosevski_NICKJOSEVSKI-PC 2010-06-23 14_51_30">
+      <DeploymentItem filename="C:\Users\nickjosevski.ACMELBDC\Development\My Dropbox\Development\WebFormEventModelExperiments\Logic\Logic\bin\Debug\Logic.dll" />
+      <DeploymentItem filename="C:\Users\nickjosevski.ACMELBDC\Development\My Dropbox\Development\WebFormEventModelExperiments\Lib\WebFormsMvp.dll" />
+      <DeploymentItem filename="C:\Users\nickjosevski.ACMELBDC\Development\My Dropbox\Development\WebFormEventModelExperiments\Lib\rihnomocks\Rhino.Mocks.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2010-06-23T14:51:30.8905034+10:00" queuing="2010-06-23T14:51:30.9205064+10:00" start="2010-06-23T14:51:30.9305074+10:00" finish="2010-06-23T14:51:32.0906234+10:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ProductEditPresenter_PopulateViewModel_SuppliedIdExpectingEditMode" storage="c:\users\nickjosevski.acmelbdc\development\my dropbox\development\webformeventmodelexperiments\webformeventmodelexperiments.tests\bin\debug\webformeventmodelexperiments.tests.dll" id="a38a618f-50a6-3bda-05ee-38636028895c">
+      <Execution id="ec6a0d76-b946-4af4-82c7-7f59006ceb14" />
+      <TestMethod codeBase="C:/Users/nickjosevski.ACMELBDC/Development/My Dropbox/Development/WebFormEventModelExperiments/WebFormEventModelExperiments.Tests/bin/Debug/WebFormEventModelExperiments.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="WebFormEventModelExperiments.Tests.ProductEditPresenterTests, WebFormEventModelExperiments.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ProductEditPresenter_PopulateViewModel_SuppliedIdExpectingEditMode" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="a38a618f-50a6-3bda-05ee-38636028895c" executionId="ec6a0d76-b946-4af4-82c7-7f59006ceb14" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="ec6a0d76-b946-4af4-82c7-7f59006ceb14" testId="a38a618f-50a6-3bda-05ee-38636028895c" testName="ProductEditPresenter_PopulateViewModel_SuppliedIdExpectingEditMode" computerName="NICKJOSEVSKI-PC" duration="00:00:00.5426761" startTime="2010-06-23T14:51:30.9355079+10:00" endTime="2010-06-23T14:51:32.0686212+10:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ec6a0d76-b946-4af4-82c7-7f59006ceb14">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;Edit&gt;. Actual:&lt;0&gt;. </Message>
+          <StackTrace>   at WebFormEventModelExperiments.Tests.ProductEditPresenterTests.ProductEditPresenter_PopulateViewModel_SuppliedIdExpectingEditMode() in C:\Users\nickjosevski.ACMELBDC\Development\My Dropbox\Development\WebFormEventModelExperiments\WebFormEventModelExperiments.Tests\ProductEditPresenterTests.cs:line 110
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

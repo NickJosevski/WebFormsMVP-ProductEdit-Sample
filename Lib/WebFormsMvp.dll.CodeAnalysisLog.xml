@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files (x86)\microsoft visual studio 10.0\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="10.0">
+ <Targets>
+  <Target Name="C:\Users\nickjosevski.ACMELBDC\Development\My Dropbox\Development\WebFormsMvp\WebFormsMvp\bin\Debug\WebFormsMvp.dll">
+   <Modules>
+    <Module Name="webformsmvp.dll">
+     <Namespaces>
+      <Namespace Name="WebFormsMvp">
+       <Types>
+        <Type Name="TraceContextAdapter" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#WriteInternal(System.Type,System.String)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="System.Web.TraceContext.Write(System.String,System.String)" TypeName="Do not pass literals as localized parameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2010-06-23 02:28:08Z" FixCategory="DependsOnFix">
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\nickjosevski.ACMELBDC\Development\My Dropbox\Development\WebFormsMvp\WebFormsMvp" File="TraceContextAdapter.cs" Line="83">Method 'TraceContextAdapter.WriteInternal(Type, string)' passes a literal string as parameter 'message' of a call to 'TraceContext.Write(string, string)'. Retrieve the following string(s) from a resource table instead: ": ".</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="WebFormsMvp.Binder">
+       <Types>
+        <Type Name="AttributeBasedPresenterDiscoveryStrategy" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#GetBindings(System.Collections.Generic.IEnumerable`1&lt;System.Object&gt;,System.Collections.Generic.IEnumerable`1&lt;WebFormsMvp.IView&gt;)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message Id="WebFormsMvp.Binder.PresenterDiscoveryResult.#ctor(System.Collections.Generic.IEnumerable&lt;WebFormsMvp.IView&gt;,System.String,System.Collections.Generic.IEnumerable&lt;WebFormsMvp.Binder.PresenterBinding&gt;)" TypeName="Do not pass literals as localized parameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2010-06-23 02:28:08Z" FixCategory="DependsOnFix">
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\nickjosevski.ACMELBDC\Development\My Dropbox\Development\WebFormsMvp\WebFormsMvp\Binder" File="AttributeBasedPresenterDiscoveryStrategy.cs" Line="111">Method 'AttributeBasedPresenterDiscoveryStrategy.GetBindings(IEnumerable&lt;object&gt;, IEnumerable&lt;IView&gt;)' passes a literal string as parameter 'message' of a call to 'PresenterDiscoveryResult.PresenterDiscoveryResult(IEnumerable&lt;IView&gt;, string, IEnumerable&lt;PresenterBinding&gt;)'. Retrieve the following string(s) from a resource table instead: "AttributeBasedPresenterDiscoveryStrategy:\r\n, \r\n".</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="CompositePresenterDiscoveryStrategy" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#BuildMergedResult(System.Collections.Generic.IEnumerable`1&lt;WebFormsMvp.IView&gt;,System.Collections.Generic.IEnumerable`1&lt;WebFormsMvp.Binder.PresenterDiscoveryResult&gt;)" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="WebFormsMvp.Binder.PresenterDiscoveryResult.#ctor(System.Collections.Generic.IEnumerable&lt;WebFormsMvp.IView&gt;,System.String,System.Collections.Generic.IEnumerable&lt;WebFormsMvp.Binder.PresenterBinding&gt;)" TypeName="Do not pass literals as localized parameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2010-06-23 02:28:08Z" FixCategory="DependsOnFix">
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\nickjosevski.ACMELBDC\Development\My Dropbox\Development\WebFormsMvp\WebFormsMvp\Binder" File="CompositePresenterDiscoveryStrategy.cs" Line="61">Method 'CompositePresenterDiscoveryStrategy.BuildMergedResult(IEnumerable&lt;IView&gt;, IEnumerable&lt;PresenterDiscoveryResult&gt;)' passes a literal string as parameter 'message' of a call to 'PresenterDiscoveryResult.PresenterDiscoveryResult(IEnumerable&lt;IView&gt;, string, IEnumerable&lt;PresenterBinding&gt;)'. Retrieve the following string(s) from a resource table instead: "CompositePresenterDiscoveryStrategy:\r\n\r\n, \r\n\r\n".</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ConventionBasedPresenterDiscoveryStrategy" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#PerformSearch(WebFormsMvp.IView,System.Collections.Generic.IEnumerable`1&lt;System.String&gt;,System.Collections.Generic.IEnumerable`1&lt;System.String&gt;,WebFormsMvp.IBuildManager)" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="WebFormsMvp.Binder.ConventionBasedPresenterDiscoveryStrategy+ConventionSearchResult.#ctor(System.String,System.Type)" TypeName="Do not pass literals as localized parameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2010-06-23 02:28:08Z" FixCategory="DependsOnFix">
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\nickjosevski.ACMELBDC\Development\My Dropbox\Development\WebFormsMvp\WebFormsMvp\Binder" File="ConventionBasedPresenterDiscoveryStrategy.cs" Line="154">Method 'ConventionBasedPresenterDiscoveryStrategy.PerformSearch(IView, IEnumerable&lt;string&gt;, IEnumerable&lt;string&gt;, IBuildManager)' passes a literal string as parameter 'message' of a call to 'ConventionBasedPresenterDiscoveryStrategy.ConventionSearchResult.ConventionSearchResult(string, Type)'. Retrieve the following string(s) from a resource table instead: "ConventionBasedPresenterDiscoveryStrategy:\r\n, \r\n".</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="Do not pass literals as localized parameters" Category="Microsoft.Globalization" CheckId="CA1303">
+   <Name>Do not pass literals as localized parameters</Name>
+   <Description>Literal strings that are embedded in source code are difficult to localize. Avoid passing literal strings as arguments in circumstances where a localized string is generally expected.</Description>
+   <Resolution Name="KnownValue">Method {0} passes a literal string as parameter '{1}' of a call to {2}. Retrieve the following string(s) from a resource table instead: {3}.</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/ms182187(VS.100).aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="10.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">Category</String>
+  <String Key="Certainty">Certainty</String>
+  <String Key="CollapseAll">Collapse All</String>
+  <String Key="CheckId">Check Id</String>
+  <String Key="Error">Error</String>
+  <String Key="Errors">error(s)</String>
+  <String Key="ExpandAll">Expand All</String>
+  <String Key="Help">Help</String>
+  <String Key="Line">Line</String>
+  <String Key="Messages">message(s)</String>
+  <String Key="LocationNotStoredInPdb">[Location not stored in Pdb]</String>
+  <String Key="Project">Project</String>
+  <String Key="Resolution">Resolution</String>
+  <String Key="Rule">Rule</String>
+  <String Key="RuleFile">Rule File</String>
+  <String Key="RuleDescription">Rule Description</String>
+  <String Key="Source">Source</String>
+  <String Key="Status">Status</String>
+  <String Key="Target">Target</String>
+  <String Key="Warning">Warning</String>
+  <String Key="Warnings">warning(s)</String>
+  <String Key="ReportTitle">Code Analysis Report</String>
+ </Localized>
+</FxCopReport>
